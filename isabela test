@@ -1,0 +1,21 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/memejames/elerium-v2-ui-library//main/Library", true))()
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local window = library:AddWindow("Sherya Script Free Version", {
+    main_color = Color3.fromRGB(255, 105, 180),
+    min_size = Vector2.new(660, 660),
+    can_resize = false,
+})
+
+local mainTab = window:AddTab("Main")
+local statsTab = window:AddTab("Stats")
+local eggsTab = window:AddTab("Eggs")
+local miscTab = window:AddTab("Misc")
+local killTab = window:AddTab("Killing")
+local playerTab = window:AddTab("Players")
+local rebirthTab = window:AddTab("Rebirths")
+local teleportTab = window:AddTab("Teleports")
+local calculatorTab = window:AddTab("Calculator")
+local creditsTab = window:AddTab("Credits")
