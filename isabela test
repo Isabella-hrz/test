@@ -19,3 +19,5 @@ local rebirthTab = window:AddTab("Rebirths")
 local teleportTab = window:AddTab("Teleports")
 local calculatorTab = window:AddTab("Calculator")
 local creditsTab = window:AddTab("Credits")
+
+local bralwsFolder = mainTab:AddFolder("Auto bralws")
